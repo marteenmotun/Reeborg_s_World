@@ -1,29 +1,23 @@
 def turn_right():
-    turn_left()
-    turn_left()
-    turn_left()
-
+    repeat 3:
+        turn_left()
 
 def shape_L():
-    move()
-    move()
-    move()
+    repeat 3:
+        move()
     turn_left()
-    move()
-    move()
-    move()
+    repeat 3:
+        move()
     turn_right()
     move()
     turn_right()
     
 def last_move():
-    move()
-    move()
-    move()
+    repeat 3:
+        move()
     turn_left()
-    move()
-    move()
-    move()
+    repeat 3:
+        move()
     
 def half_way_move():
     shape_L()
